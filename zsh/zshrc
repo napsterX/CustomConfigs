@@ -13,14 +13,15 @@ antigen bundle cp
 antigen bundle history-substring-search
 antigen bundle iterm2
 antigen bundle jira
-antigen bundle nomad
+#antigen bundle nomad
 antigen bundle screen
 antigen bundle ssh-agent
 antigen bundle systemadmin
 antigen bundle torrent
-antigen bundle vagrant
+#antigen bundle vagrant
 antigen bundle zsh-navigation-tools
-antigen bundle zsh-autosuggestions
+antigen bundle autojump
+#antigen bundle zsh-autosuggestions
 
 # Python Plugins
 #antigen bundle pip
@@ -38,28 +39,28 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
 
 # Sourcing Theme configs
-source ~/CustomConfigs/zsh/custom_agnoster-theme.zsh
+source ~/git/CustomConfigs/zsh/custom_agnoster-theme.zsh
 
 # Sourcing Aliases
-source ~/CustomConfigs/zsh/aliases.zsh
+source ~/git/CustomConfigs/zsh/aliases.zsh
 
 # Sourcing zstyle configs
-source ~/CustomConfigs/zsh/zstyles.zsh
+source ~/git/CustomConfigs/zsh/zstyles.zsh
 
 # Sourcing setopt configs
-source ~/CustomConfigs/zsh/setopt.zsh
+source ~/git/CustomConfigs/zsh/setopt.zsh
 
 # Sourcing ZSH mod configs
-source ~/CustomConfigs/zsh/modules.zsh
-
-# Sourcing installed plugins configs
-source ~/CustomConfigs/zsh/plugins_configs.zsh
+source ~/git/CustomConfigs/zsh/modules.zsh
 
 # Sourcing Key binding configs
-source ~/CustomConfigs/zsh/key_bindings.zsh
+source ~/git/CustomConfigs/zsh/key_bindings.zsh
 
 # Sourcing some extra zsh configs
-source ~/CustomConfigs/zsh/extra.zsh
+source ~/git/CustomConfigs/zsh/extra.zsh
+
+# Sourcing installed plugins configs
+source ~/git/CustomConfigs/zsh/plugins_configs.zsh
 
 # Sourcing my custom ZSH variables
-source ~/CustomConfigs/zsh/variables.zsh
+source ~/git/CustomConfigs/zsh/variables.zsh
