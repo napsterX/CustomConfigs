@@ -13,6 +13,6 @@ It uses Antigen plugin manager, which in-turn uses oh-my-zsh also
   * Make sure ZSH is installed on the machine
   * git clone https://github.com/napsterX/CustomConfigs.git
   * sh ~/CustomConfigs/zsh/commands.sh
-  * ln -s ~/~/CustomConfigs/zsh/zshrc ~/.zshrc
+  * ln -s ~/CustomConfigs/zsh/zshrc ~/.zshrc
 
 That's it. You are all set to enjoy ZSH
