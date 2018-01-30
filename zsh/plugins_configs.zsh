@@ -1,0 +1,13 @@
+
+ ### Jira Plugin configs:
+
+ #export $JIRA_URL='https://jira.insnw.net'
+ #export $JIRA_NAME='mkumar'
+ #export $JIRA_PREFIX='PBL'
+ #export $JIRA_RAPID_BOARD=true
+
+ ### ssh-agent configs:
+
+ zstyle :omz:plugins:ssh-agent agent-forwarding on
+ zstyle :omz:plugins:ssh-agent identities id_rsa id_rsa2 id_github
+ #zstyle :omz:plugins:ssh-agent lifetime 4h

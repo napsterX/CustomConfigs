@@ -1,0 +1,65 @@
+
+# Enabling Antigen https://github.com/zsh-users/antigen
+source ~/.antigen.zsh
+
+# Load the oh-my-zsh's library.
+antigen use oh-my-zsh
+
+# Bundles from the default repo (robbyrussell's oh-my-zsh).
+antigen bundle git
+antigen bundle colored-man-pages
+antigen bundle colorize
+antigen bundle cp
+antigen bundle history-substring-search
+antigen bundle iterm2
+antigen bundle jira
+antigen bundle nomad
+antigen bundle screen
+antigen bundle ssh-agent
+antigen bundle systemadmin
+antigen bundle torrent
+antigen bundle vagrant
+antigen bundle zsh-navigation-tools
+antigen bundle zsh-autosuggestions
+
+# Python Plugins
+#antigen bundle pip
+#antigen bundle python
+#antigen bundle virtualenv
+
+
+# Syntax highlighting bundle.
+antigen bundle zsh-users/zsh-syntax-highlighting
+
+# Load the theme.
+# antigen theme robbyrussell
+
+# Tell Antigen that you're done.
+antigen apply
+
+# Sourcing Theme configs
+source ~/CustomConfigs/zsh/custom_agnoster-theme.zsh
+
+# Sourcing Aliases
+source ~/CustomConfigs/zsh/aliases.zsh
+
+# Sourcing zstyle configs
+source ~/CustomConfigs/zsh/zstyles.zsh
+
+# Sourcing setopt configs
+source ~/CustomConfigs/zsh/setopt.zsh
+
+# Sourcing ZSH mod configs
+source ~/CustomConfigs/zsh/modules.zsh
+
+# Sourcing installed plugins configs
+source ~/CustomConfigs/zsh/plugins_configs.zsh
+
+# Sourcing Key binding configs
+source ~/CustomConfigs/zsh/key_bindings.zsh
+
+# Sourcing some extra zsh configs
+source ~/CustomConfigs/zsh/extra.zsh
+
+# Sourcing my custom ZSH variables
+source ~/CustomConfigs/zsh/variables.zsh
