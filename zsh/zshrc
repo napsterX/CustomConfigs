@@ -12,16 +12,14 @@ antigen bundle colorize
 antigen bundle cp
 antigen bundle history-substring-search
 antigen bundle iterm2
-antigen bundle jira
-#antigen bundle nomad
 antigen bundle screen
-antigen bundle ssh-agent
 antigen bundle systemadmin
 antigen bundle torrent
-#antigen bundle vagrant
 antigen bundle zsh-navigation-tools
-antigen bundle autojump
+
 #antigen bundle zsh-autosuggestions
+#antigen bundle vagrant
+#antigen bundle nomad
 
 # Python Plugins
 #antigen bundle pip
