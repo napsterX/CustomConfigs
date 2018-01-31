@@ -1,4 +1,4 @@
-# CustomConfigs
+# DotFiles
 My Custom configs for Zsh/Vim/Screen etc
 
 ZSH:
