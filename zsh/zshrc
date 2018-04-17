@@ -1,22 +1,30 @@
 
 # Enabling Antigen https://github.com/zsh-users/antigen
-source ~/.antigen.zsh
+source ~/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
 
 # Bundles from the default repo (robbyrussell's oh-my-zsh).
-antigen bundle git
-antigen bundle colored-man-pages
-antigen bundle colorize
-antigen bundle cp
-antigen bundle history-substring-search
-antigen bundle iterm2
-antigen bundle screen
-antigen bundle systemadmin
-antigen bundle torrent
-antigen bundle zsh-navigation-tools
+# antigen bundle git
+antigen bundles <<EOBUNDLES
+  git
+  colored-man-pages
+  colorize
+  cp
+  iterm2
+  screen
+  systemadmin
+  torrent
+  zsh-navigation-tools
+  zsh-users/zsh-history-substring-search
+  zsh-users/zsh-completions
+  zsh-users/zsh-syntax-highlighting
+  chucknorris
+EOBUNDLES
 
+#antigen theme agnoster
+#antigen theme history-substring-search
 #antigen bundle zsh-autosuggestions
 #antigen bundle vagrant
 #antigen bundle nomad
@@ -26,10 +34,6 @@ antigen bundle zsh-navigation-tools
 #antigen bundle python
 #antigen bundle virtualenv
 
-
-# Syntax highlighting bundle.
-antigen bundle zsh-users/zsh-syntax-highlighting
-
 # Load the theme.
 # antigen theme robbyrussell
 
@@ -37,28 +41,31 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen apply
 
 # Sourcing Theme configs
-source ~/git/CustomConfigs/zsh/custom_agnoster-theme.zsh
+source ~/git/DotFiles/zsh/custom_agnoster-theme.zsh
 
 # Sourcing Aliases
-source ~/git/CustomConfigs/zsh/aliases.zsh
+source ~/git/DotFiles/zsh/aliases.zsh
 
 # Sourcing zstyle configs
-source ~/git/CustomConfigs/zsh/zstyles.zsh
+source ~/git/DotFiles/zsh/zstyles.zsh
 
 # Sourcing setopt configs
-source ~/git/CustomConfigs/zsh/setopt.zsh
+source ~/git/DotFiles/zsh/setopt.zsh
 
 # Sourcing ZSH mod configs
-source ~/git/CustomConfigs/zsh/modules.zsh
+source ~/git/DotFiles/zsh/modules.zsh
 
 # Sourcing Key binding configs
-source ~/git/CustomConfigs/zsh/key_bindings.zsh
+source ~/git/DotFiles/zsh/key_bindings.zsh
 
 # Sourcing some extra zsh configs
-source ~/git/CustomConfigs/zsh/extra.zsh
+source ~/git/DotFiles/zsh/extra.zsh
 
 # Sourcing installed plugins configs
-source ~/git/CustomConfigs/zsh/plugins_configs.zsh
+source ~/git/DotFiles/zsh/plugins_configs.zsh
 
 # Sourcing my custom ZSH variables
-source ~/git/CustomConfigs/zsh/variables.zsh
+source ~/git/DotFiles/zsh/variables.zsh
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"

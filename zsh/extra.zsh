@@ -9,3 +9,5 @@ eval PR_LIGHT_$color='%{$fg[${(L)color}]%}'
 (( count = $count + 1 ))
  done
 PR_NO_COLOR="%{$terminfo[sgr0]%}"
+
+source ~/.profile

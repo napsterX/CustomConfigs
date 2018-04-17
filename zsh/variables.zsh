@@ -36,9 +36,10 @@ compinit
 
 # Setting the configs of Adam2 prompt with colors
 
-#prompt adam2 green cyan cyan white  # file which it is reading for the configurations -- /usr/share/zsh/4.3.4/functions/prompt_adam2_setup
+#prompt adam2 green cyan cyan white
 #prompt fire
 #prompt fade
+#prompt adam2
 
 # Figure out the SHORT hostname
 if [[ "$OSTYPE" = darwin* ]]; then
@@ -48,4 +49,4 @@ else
   SHORT_HOST=${HOST/.*/}
 fi
 
-PATH="/opt/local/bin:/Users/mkumar/nap/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/sbin:/usr/sbin:/usr/local/mysql/bin:$PATH"
+PATH="/opt/local/bin:/Users/mkumar/nap/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/sbin:/usr/sbin:/usr/local/mysql/bin:/Users/mkumar/Library/Python/2.7/bin:/Users/mkumar/Library/Python/3.6/bin:$PATH"
