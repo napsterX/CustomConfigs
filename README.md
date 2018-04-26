@@ -11,8 +11,9 @@ It uses Antigen plugin manager, which in-turn uses oh-my-zsh also
 * Steps need to take care to make it work.
 
   * Make sure ZSH is installed on the machine
+  * mkdir git; cd git
   * git clone https://github.com/napsterX/DotFiles.git
-  * sh ~/DotFiles/zsh/commands.sh
-  * ln -s ~/DotFiles/zsh/zshrc ~/.zshrc
+  * sh ~/git/DotFiles/zsh/commands.sh
+  * ln -s ~/git/DotFiles/zsh/zshrc ~/.zshrc
 
 That's it. You are all set to enjoy ZSH
