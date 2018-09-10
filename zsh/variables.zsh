@@ -28,6 +28,7 @@ export h="hq.instart.co"
 export EDITOR=vim
 
 export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
 
 autoload -U compinit compaudit promptinit
 compaudit
