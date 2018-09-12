@@ -16,4 +16,7 @@ It uses Antigen plugin manager, which in-turn uses oh-my-zsh also
   * sh ~/git/DotFiles/zsh/commands.sh
   * ln -s ~/git/DotFiles/zsh/zshrc ~/.zshrc
 
+
+Install fonts from https://github.com/powerline/fonts
+
 That's it. You are all set to enjoy ZSH

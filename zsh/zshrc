@@ -1,6 +1,6 @@
 
 # Enabling Antigen https://github.com/zsh-users/antigen
-source ~/.antigen.zsh
+source ~/antigen.zsh
 
 # Load the oh-my-zsh's library.
 antigen use oh-my-zsh
@@ -16,12 +16,15 @@ antigen bundles <<EOBUNDLES
   screen
   systemadmin
   torrent
+  ssh-agent
   zsh-navigation-tools
+  djui/alias-tips
   zsh-users/zsh-history-substring-search
+  zsh-users/zsh-autosuggestions
   zsh-users/zsh-completions
   zsh-users/zsh-syntax-highlighting
-  chucknorris
 EOBUNDLES
+#  chucknorris
 
 #antigen theme agnoster
 #antigen theme history-substring-search
