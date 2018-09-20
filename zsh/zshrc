@@ -20,7 +20,6 @@ antigen bundles <<EOBUNDLES
   zsh-navigation-tools
   djui/alias-tips
   zsh-users/zsh-history-substring-search
-  zsh-users/zsh-autosuggestions
   zsh-users/zsh-completions
   zsh-users/zsh-syntax-highlighting
 EOBUNDLES
