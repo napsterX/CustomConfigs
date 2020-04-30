@@ -29,6 +29,9 @@ export EDITOR=vim
 
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
+export VAULT_ADDR=https://vault.svc.insnw.net:8200
+export NOMAD_ADDR=https://nomad.service.srv.insnw.net:4646
+export NOMAD_SKIP_VERIFY=1
 
 autoload -U compinit compaudit promptinit
 compaudit
@@ -50,4 +53,4 @@ else
   SHORT_HOST=${HOST/.*/}
 fi
 
-PATH="/opt/local/bin:/Users/mkumar/nap/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/sbin:/usr/sbin:/usr/local/mysql/bin:/Users/mkumar/Library/Python/2.7/bin:/Users/mkumar/Library/Python/3.6/bin:$PATH"
+PATH="/opt/local/bin:/Users/manish/nap/bin:/opt/local/sbin:/usr/local/bin:/usr/local/sbin:/sbin:/usr/sbin:/usr/local/mysql/bin:/Users/manish/Library/Python/2.7/bin:/Users/manish/Library/Python/3.6/bin:$PATH"

@@ -2,10 +2,16 @@
 #   Some of the aliases I use                 #
 ###############################################
 
+# Kubernetes aliases
+
+alias kdp='kubectl describe pods'
+alias kgp='kubectl get pods'
+alias kl='kubectl logs'
+
 # Local Alias
 alias -s rb=vim
 alias -s log="less -MN"
-alias grep='grep --color'
+alias grep='grep  --color=auto --exclude-dir={.bzr,CVS,.git,.hg,.svn}'
 alias egrep='egrep --color'
 alias 'cd..=cd ..'
 alias 'g'='git'
@@ -50,4 +56,8 @@ alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resource
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# kubeclt aliases
+alias k=kubectl
+#complete -F __start_kubectl k
 

@@ -16,13 +16,13 @@ antigen bundles <<EOBUNDLES
   screen
   systemadmin
   torrent
-  ssh-agent
   zsh-navigation-tools
   djui/alias-tips
   zsh-users/zsh-history-substring-search
   zsh-users/zsh-completions
   zsh-users/zsh-syntax-highlighting
 EOBUNDLES
+#  ssh-agent
 #  chucknorris
 
 #antigen theme agnoster
@@ -51,11 +51,17 @@ source ~/git/DotFiles/zsh/aliases.zsh
 # Sourcing zstyle configs
 source ~/git/DotFiles/zsh/zstyles.zsh
 
+# Auto completion configs
+source ~/git/DotFiles/zsh/completion.zsh
+
 # Sourcing setopt configs
 source ~/git/DotFiles/zsh/setopt.zsh
 
 # Sourcing ZSH mod configs
 source ~/git/DotFiles/zsh/modules.zsh
+
+# Sourcing ZSH functions
+#source ~/git/DotFiles/zsh/functions.zsh
 
 # Sourcing Key binding configs
 source ~/git/DotFiles/zsh/key_bindings.zsh
@@ -71,3 +77,4 @@ source ~/git/DotFiles/zsh/variables.zsh
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+if [ $commands[kubectl] ]; then source <(kubectl completion zsh); fi
