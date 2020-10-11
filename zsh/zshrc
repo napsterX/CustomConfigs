@@ -18,18 +18,19 @@ antigen bundles <<EOBUNDLES
   torrent
   zsh-navigation-tools
   djui/alias-tips
-  zsh-users/zsh-history-substring-search
   zsh-users/zsh-completions
   zsh-users/zsh-syntax-highlighting
+  zsh-users/zsh-history-substring-search
 EOBUNDLES
 #  ssh-agent
 #  chucknorris
 
-#antigen theme agnoster
+antigen theme agnoster
 #antigen theme history-substring-search
 #antigen bundle zsh-autosuggestions
 #antigen bundle vagrant
 #antigen bundle nomad
+#antigen bundle docker
 
 # Python Plugins
 #antigen bundle pip
@@ -43,7 +44,7 @@ EOBUNDLES
 antigen apply
 
 # Sourcing Theme configs
-source ~/git/DotFiles/zsh/custom_agnoster-theme.zsh
+#source ~/git/DotFiles/zsh/custom_agnoster-theme.zsh
 
 # Sourcing Aliases
 source ~/git/DotFiles/zsh/aliases.zsh

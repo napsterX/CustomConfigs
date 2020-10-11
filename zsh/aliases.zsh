@@ -61,3 +61,6 @@ alias path='echo -e ${PATH//:/\\n}'
 alias k=kubectl
 #complete -F __start_kubectl k
 
+# Minio aliases
+alias minfo='mc admin info'
+alias mheal='mc admin heal'
