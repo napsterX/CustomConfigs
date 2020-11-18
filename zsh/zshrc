@@ -49,6 +49,9 @@ antigen apply
 # Sourcing Aliases
 source ~/git/DotFiles/zsh/aliases.zsh
 
+# Sourcing Autojump settings
+source ~/git/DotFiles/zsh/autojump.zsh
+
 # Sourcing zstyle configs
 source ~/git/DotFiles/zsh/zstyles.zsh
 
