@@ -58,6 +58,9 @@ source ~/git/DotFiles/zsh/zstyles.zsh
 # Auto completion configs
 source ~/git/DotFiles/zsh/completion.zsh
 
+# Auto completion kustomize configs
+source ~/git/DotFiles/zsh/kustomize_completion.zsh
+
 # Sourcing setopt configs
 source ~/git/DotFiles/zsh/setopt.zsh
 
